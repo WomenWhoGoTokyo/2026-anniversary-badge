@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# JetBrains IDE
+.idea/
+
+# KiCad
+*-backups/
+fp-info-cache
+*.kicad_prl
+
+# Archives
+archive.zip

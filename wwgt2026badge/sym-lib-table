@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "foostan/kbd")(type "Legacy")(uri "/Users/micchie/Develop/github.com/WomenWhoGoTokyo/2026badge/lib/foostan/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+  (lib (name "crides/kleeb/mcu")(type "KiCad")(uri "/Users/micchie/Develop/github.com/WomenWhoGoTokyo/2026badge/lib/crides/kleeb/mcu.kicad_sym")(options "")(descr ""))
+  (lib (name "sglib")(type "KiCad")(uri "/Users/micchie/Develop/github.com/WomenWhoGoTokyo/2026badge/lib/sglib.kicad_sym")(options "")(descr ""))
+  (lib (name "encoder")(type "KiCad")(uri "/Users/micchie/Develop/github.com/WomenWhoGoTokyo/2026badge/lib/ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H.kicad_sym")(options "")(descr ""))
+  (lib (name "ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H")(type "KiCad")(uri "/Users/micchie/Develop/github.com/WomenWhoGoTokyo/2026badge/lib/ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H.kicad_sym")(options "")(descr ""))
+)
