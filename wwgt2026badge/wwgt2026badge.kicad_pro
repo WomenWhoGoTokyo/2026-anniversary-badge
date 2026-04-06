@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|49923218|46066313|f7de78d8-f3d7-49e5-9de5-b09ea52ab1a4|00000000-0000-0000-0000-000000000000",
+          "意図的であるため除外"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -66,7 +71,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -466,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "conf2025badge.kicad_pro",
+    "filename": "wwgt2026badge.kicad_pro",
     "version": 3
   },
   "net_settings": {

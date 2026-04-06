@@ -57,8 +57,8 @@
 			)
 			(symbol "ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H_0_1"
 				(rectangle
-					(start -5 5)
-					(end 5 -5)
+					(start -7.62 5)
+					(end 7.62 -5)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -67,10 +67,12 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "ROT_A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -86,9 +88,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "B"
+					(name "ROT_B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -104,9 +106,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "C"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -122,9 +124,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 3.81 180)
+					(at 10.16 3.81 180)
 					(length 2.54)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -140,9 +142,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 1.27 180)
+					(at 10.16 1.27 180)
 					(length 2.54)
-					(name "2"
+					(name "LED1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -158,9 +160,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -1.27 180)
+					(at 10.16 -1.27 180)
 					(length 2.54)
-					(name "3"
+					(name "LED2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -176,9 +178,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 180)
+					(at 10.16 -3.81 180)
 					(length 2.54)
-					(name "4"
+					(name "BTN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2339,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 41.91) (xy 163.83 44.45)
+			(xy 163.83 39.37) (xy 163.83 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2369,13 +2371,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 36.83) (xy 142.24 36.83)
+			(xy 101.6 38.1) (xy 104.14 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "154c1b74-b242-4261-b471-3d087bc29d85")
+		(uuid "111bcaf0-9450-4e3f-a190-16faa40cd9a9")
+	)
+	(wire
+		(pts
+			(xy 124.46 39.37) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd32d34-2cb5-43f1-aefc-0613a584205e")
 	)
 	(wire
 		(pts
@@ -2399,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 121.92 53.34)
+			(xy 104.14 53.34) (xy 121.92 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2449,6 +2461,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 41.91) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487c5440-f806-4711-918e-1cf9e4a74880")
+	)
+	(wire
+		(pts
 			(xy 52.07 91.44) (xy 39.37 91.44)
 		)
 		(stroke
@@ -2459,13 +2481,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 41.91) (xy 163.83 41.91)
+			(xy 124.46 36.83) (xy 142.24 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51db107b-d353-4177-a8d6-3d949f309407")
+		(uuid "62ed3657-f35c-4437-b78a-da2ba81b5888")
 	)
 	(wire
 		(pts
@@ -2556,6 +2578,16 @@
 			(type default)
 		)
 		(uuid "a1ece64b-1023-4f5b-8c99-213064fe06eb")
+	)
+	(wire
+		(pts
+			(xy 124.46 41.91) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fc4c88-0ffe-487b-abe1-ea1259196a04")
 	)
 	(wire
 		(pts
@@ -2689,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 110.49 53.34)
+			(xy 104.14 43.18) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2699,13 +2731,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 44.45) (xy 149.86 44.45)
+			(xy 101.6 40.64) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f495c4b7-1f90-4b50-8b67-dd630cd04870")
+		(uuid "f37b9b79-43cc-4e58-a1c8-f64183cf4d47")
 	)
 	(label "SDA1"
 		(at 39.37 95.25 0)
@@ -2815,7 +2847,7 @@
 	)
 	(global_label "ROT_B"
 		(shape input)
-		(at 110.49 40.64 180)
+		(at 101.6 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2825,7 +2857,7 @@
 		)
 		(uuid "10df542c-1fb1-45ac-a3a7-2eebcf917720")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6991 40.64 0)
+			(at 92.8091 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2891,7 @@
 	)
 	(global_label "ROT_A"
 		(shape input)
-		(at 110.49 38.1 180)
+		(at 101.6 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2869,7 +2901,7 @@
 		)
 		(uuid "20e306c2-f7ed-4a79-94af-9576098b8f94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8805 38.1 0)
+			(at 92.9905 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3441,7 @@
 	)
 	(global_label "ENC_BTN"
 		(shape input)
-		(at 125.73 39.37 0)
+		(at 124.46 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3419,7 +3451,7 @@
 		)
 		(uuid "979e7656-a205-4951-b33e-01fc1f840a5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0004 39.37 0)
+			(at 135.7304 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,33 +4072,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H:ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H")
-		(at 118.11 40.64 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 251.46 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42810e27-08aa-44c7-8b7d-082af4d0460f")
-		(property "Reference" "SW2"
-			(at 118.11 30.48 0)
+		(uuid "2731ca05-0aa6-46a4-98ea-0654e49c9553")
+		(property "Reference" "H6"
+			(at 254 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "EC12PLGRSDVF"
-			(at 118.11 33.02 0)
+		(property "Value" "MountingHole"
+			(at 254 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "sglib:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_LED"
-			(at 118.11 50.8 0)
+		(property "Footprint" "foostan/kbd:M2_HOLE_v2"
+			(at 251.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,8 +4108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 118.11 53.34 0)
+		(property "Datasheet" "~"
+			(at 251.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4118,68 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 40.64 0)
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "wwgt2026badge"
+				(path "/4597c5c7-ab98-46a0-a1d3-ac8e59abbe7d"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H:ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H")
+		(at 114.3 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42810e27-08aa-44c7-8b7d-082af4d0460f")
+		(property "Reference" "SW2"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC12PLGRSDVF"
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sglib:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_LED"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,6 +4772,69 @@
 			(project ""
 				(path "/4597c5c7-ab98-46a0-a1d3-ac8e59abbe7d"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 251.46 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba5c5f7c-9014-4233-9a49-bc6a24db8f89")
+		(property "Reference" "H5"
+			(at 254 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 254 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "foostan/kbd:M2_HOLE_v2"
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "wwgt2026badge"
+				(path "/4597c5c7-ab98-46a0-a1d3-ac8e59abbe7d"
+					(reference "H5")
 					(unit 1)
 				)
 			)
