@@ -6,6 +6,7 @@
 		(pin_names
 			(offset 1.016)
 		)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
@@ -42,10 +43,19 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H_0_1"
 			(rectangle
-				(start -5 5)
-				(end 5 -5)
+				(start -7.62 5)
+				(end 7.62 -5)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -54,10 +64,12 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "ALPS_EC12PLGRSDVF_D_25K_24_24C_31_07_6H_1_1"
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "A"
+				(name "ROT_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -73,9 +85,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
-				(name "B"
+				(name "ROT_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -91,9 +103,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "C"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -109,9 +121,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 3.81 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -127,9 +139,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
-				(name "2"
+				(name "LED1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -145,9 +157,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
-				(name "3"
+				(name "LED2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -163,9 +175,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -3.81 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
-				(name "4"
+				(name "BTN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -181,5 +193,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
