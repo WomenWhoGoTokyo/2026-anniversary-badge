@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2026-03-03T22:12:39+09:00"
+    "CreationDate": "2026-04-08T08:26:35+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "2026badge",
-      "GUID": "32303236-6261-4646-9765-2e6b69636164",
+      "Name": "wwgt2026badge",
+      "GUID": "77776774-3230-4323-9662-616467652e6b",
       "Revision": "rev?"
     },
     "Size": {
@@ -27,52 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "2026badge-F_Cu.gbr",
+      "Path": "wwgt2026badge-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2026badge-B_Cu.gbr",
+      "Path": "wwgt2026badge-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2026badge-F_Paste.gbr",
+      "Path": "wwgt2026badge-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2026badge-B_Paste.gbr",
+      "Path": "wwgt2026badge-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2026badge-F_Silkscreen.gbr",
+      "Path": "wwgt2026badge-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2026badge-B_Silkscreen.gbr",
+      "Path": "wwgt2026badge-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2026badge-F_Mask.gbr",
+      "Path": "wwgt2026badge-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "2026badge-B_Mask.gbr",
+      "Path": "wwgt2026badge-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "2026badge-Edge_Cuts.gbr",
+      "Path": "wwgt2026badge-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
