@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|49923218|46066313|f7de78d8-f3d7-49e5-9de5-b09ea52ab1a4|00000000-0000-0000-0000-000000000000",
-          "意図的であるため除外"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
