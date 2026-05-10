@@ -23,7 +23,7 @@ RP2040 Zero と TinyGo を組み合わせた、はんだ付けから始められ
 
 KiCanvas でブラウザから直接閲覧できます。
 
-- [kiCanvas で開く](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsago35%2F2026-anniversary-badge%2Ftree%2Fmain%2Fwwgt2026badge)
+- [kiCanvas で開く](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FWomenWhoGoTokyo%2F2026-anniversary-badge%2Ftree%2Fmain%2Fwwgt2026badge)
 
 ## ハードウェアの組み立て
 
